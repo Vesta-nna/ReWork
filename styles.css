@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+
+html {
+  font-size: 20px;
+  font-family: Roboto;
+}
+
+body {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+h1, #mission h2, #contact h2 {
+  font-family: "Potta One";
+}
+
+h2 {
+  padding-top: 0.5rem;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: teal;
+}
+
+#mission {
+  margin-top: 2rem;
+  background: url('resources/img/photo-1497032628192-86f99bcd76bc.jpeg') no-repeat center fixed;
+  background-size: cover;
+  height: 30rem;
+  display: flex;
+}
+
+#mission .text-mission {
+  background-color: white;
+  color: black;
+  margin: auto;
+  width: 100%;
+}
+
+#catalog {
+  margin: 2rem 0;
+}
+
+#catalog .content {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+}
+
+#catalog #fournitures {
+  background: url('resources/img/fournitures.jpeg') no-repeat center;
+  background-size: cover;
+  width: 100%;
+  margin: 1rem 1rem;
+}
+
+#catalog #organization {
+  background: url('resources/img/balance.jpeg') no-repeat center;
+  background-size: cover;
+  margin: 1rem 1rem;
+}
+
+#catalog #home {
+  background: url('resources/img/setup.jpeg') no-repeat center;
+  background-size: cover;
+  margin: 1rem 1rem;
+}
+
+#catalog #out {
+  background: url('resources/img/outside.jpeg') no-repeat center;
+  background-size: cover;
+  margin: 1rem 1rem;
+}
+
+#catalog p {
+  margin: 10rem 2rem;
+  padding: 1rem;
+  background-color: white;
+  opacity: 0.1;
+  transition: 0.3s
+}
+
+#catalog p:hover {
+  opacity: 1;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+}
+
+#team {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.abi {
+  background: url('resources/img/IMG_4436.jpeg') no-repeat center;
+  background-size: cover;
+  width: 50%;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.anna {
+  background: url('resources/img/IMG_4559.jpeg') no-repeat center;
+  background-size: cover;
+  width: 50%;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.team-info {
+  width: 100%;
+  background-color: rgb(31, 31, 31);
+  color: white;
+  opacity: 0.7;
+}
+
+.team-info p {
+  margin: 0 0 0.5rem 0;
+}
+
+.team-info h3 {
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+#contact {
+  padding: 2rem 2rem;
+  background-color: rgb(31, 31, 31);
+  color: white;
+}
+
+footer {
+  font-size: 0.85rem;
+}
+
+@media only screen and (max-width: 700px) {
+  html {
+    font-size: 30px;
+  }
+}
